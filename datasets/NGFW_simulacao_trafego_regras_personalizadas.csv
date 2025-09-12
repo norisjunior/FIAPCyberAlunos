@@ -1,0 +1,101 @@
+﻿IP_origem,usuario,porta_destino,protocolo,bytes,aplicacao,acao
+192.168.2.3,user3@empresa.com,3306,TCP,6643,Banco de Dados
+192.168.3.2,user1@empresa.com,6000,UDP,3579,Zoom
+192.168.1.5,user8@empresa.com,6000,UDP,5280,Google
+192.168.1.3,user15@empresa.com,80,TCP,7726,Banco
+192.168.1.4,user2@empresa.com,21,TCP,8374,Proxy
+192.168.1.6,user1@empresa.com,3306,TCP,9249,Banco de Dados
+192.168.1.1,user11@empresa.com,5000,UDP,7135,Google
+192.168.3.4,user14@empresa.com,5000,UDP,376,YouTube
+192.168.2.2,user17@empresa.com,53,UDP,5031,Consulta DNS
+192.168.2.4,user4@empresa.com,21,TCP,6599,Proxy
+192.168.3.6,user7@empresa.com,3306,TCP,1222,Banco de Dados
+192.168.3.3,user15@empresa.com,3306,TCP,8982,Banco de Dados
+192.168.1.5,user16@empresa.com,6000,UDP,3172,TikTok
+192.168.3.3,user5@empresa.com,110,TCP,3236,Fifa
+192.168.1.6,user20@empresa.com,22,TCP,8244,Acesso administrativo remoto
+192.168.3.2,user17@empresa.com,6000,UDP,9464,Band
+192.168.3.1,user13@empresa.com,6000,UDP,4081,Minecraft
+192.168.1.5,user3@empresa.com,443,TCP,4996,Adobe
+192.168.1.8,user17@empresa.com,8080,TCP,9301,B3
+192.168.1.4,user7@empresa.com,123,UDP,4202,Ajuste de horário NTP
+192.168.3.4,user5@empresa.com,8080,TCP,5757,Fifa
+192.168.1.1,user2@empresa.com,25,TCP,3282,E-mail
+192.168.2.3,user19@empresa.com,22,TCP,4254,Acesso administrativo remoto
+192.168.3.5,user12@empresa.com,5000,UDP,1105,G1
+192.168.3.4,user8@empresa.com,1080,TCP,5520,Proxy nsocks
+192.168.1.2,user12@empresa.com,5000,UDP,4344,TikTok
+192.168.3.8,user16@empresa.com,443,TCP,7266,G1
+192.168.1.5,user17@empresa.com,53,UDP,7894,Consulta DNS
+192.168.3.2,user11@empresa.com,21,TCP,5887,Proxy
+192.168.1.4,user9@empresa.com,80,TCP,2059,Facebook
+192.168.3.4,user11@empresa.com,6000,UDP,5675,TikTok
+192.168.1.1,user16@empresa.com,21,TCP,302,Proxy
+192.168.1.9,user12@empresa.com,8080,TCP,3271,Band
+192.168.2.1,user17@empresa.com,8080,TCP,2185,Fifa
+192.168.2.8,user20@empresa.com,110,TCP,184,Band
+192.168.1.5,user8@empresa.com,6000,UDP,5773,Zoom
+192.168.1.4,user12@empresa.com,1080,TCP,5029,Proxy nsocks
+192.168.2.2,user1@empresa.com,21,TCP,2943,Proxy
+192.168.1.6,user1@empresa.com,123,UDP,5332,Ajuste de horário NTP
+192.168.2.8,user8@empresa.com,5000,UDP,7444,Google
+192.168.2.3,user9@empresa.com,5000,UDP,1490,Fifa
+192.168.1.6,user15@empresa.com,6000,UDP,3023,Zoom
+192.168.1.5,user1@empresa.com,3306,TCP,7217,Banco de Dados
+192.168.3.3,user7@empresa.com,80,TCP,9627,B3
+192.168.3.8,user3@empresa.com,6000,UDP,8499,G1
+192.168.1.7,user3@empresa.com,110,TCP,6194,Adobe
+192.168.2.3,user4@empresa.com,5000,UDP,1612,YouTube
+192.168.2.5,user6@empresa.com,110,TCP,9415,Zoom
+192.168.1.6,user11@empresa.com,5000,UDP,4686,Facebook
+192.168.3.6,user17@empresa.com,110,TCP,3604,YouTube
+192.168.1.9,user7@empresa.com,1080,TCP,5264,Proxy nsocks
+192.168.1.7,user14@empresa.com,53,UDP,9719,Consulta DNS
+192.168.2.3,user11@empresa.com,21,TCP,758,Proxy
+192.168.3.5,user4@empresa.com,123,UDP,2292,Ajuste de horário NTP
+192.168.2.7,user9@empresa.com,53,UDP,3169,Consulta DNS
+192.168.1.8,user1@empresa.com,6000,UDP,3387,TikTok
+192.168.3.3,user2@empresa.com,6000,UDP,2661,Band
+192.168.3.3,user8@empresa.com,5000,UDP,3330,Fifa
+192.168.2.5,user19@empresa.com,25,TCP,4322,E-mail
+192.168.3.5,user3@empresa.com,6000,UDP,990,Banco
+192.168.3.5,user20@empresa.com,5000,UDP,4380,B3
+192.168.3.9,user16@empresa.com,5000,UDP,4256,Minecraft
+192.168.1.1,user7@empresa.com,25,TCP,2982,E-mail
+192.168.3.2,user4@empresa.com,8080,TCP,1852,Zoom
+192.168.2.2,user9@empresa.com,80,TCP,6090,Fifa
+192.168.2.9,user19@empresa.com,53,UDP,3229,Consulta DNS
+192.168.2.3,user19@empresa.com,8080,TCP,1719,Adobe
+192.168.1.7,user15@empresa.com,22,TCP,8783,Acesso administrativo remoto
+192.168.2.2,user19@empresa.com,21,TCP,1612,Proxy
+192.168.3.6,user1@empresa.com,80,TCP,7125,B3
+192.168.2.3,user18@empresa.com,6000,UDP,9368,Adobe
+192.168.3.1,user17@empresa.com,53,UDP,9676,Consulta DNS
+192.168.3.9,user6@empresa.com,443,TCP,3566,Band
+192.168.3.3,user15@empresa.com,8080,TCP,293,Google
+192.168.1.2,user7@empresa.com,6000,UDP,9006,Band
+192.168.2.5,user3@empresa.com,1080,TCP,3525,Proxy nsocks
+192.168.2.8,user10@empresa.com,5000,UDP,6684,B3
+192.168.3.8,user9@empresa.com,5000,UDP,1464,Fifa
+192.168.3.2,user15@empresa.com,22,TCP,374,Acesso administrativo remoto
+192.168.1.3,user11@empresa.com,6000,UDP,1199,YouTube
+192.168.2.1,user4@empresa.com,21,TCP,8602,Proxy
+192.168.3.7,user14@empresa.com,25,TCP,3870,E-mail
+192.168.3.7,user11@empresa.com,5000,UDP,8260,Minecraft
+192.168.3.6,user3@empresa.com,5000,UDP,6199,YouTube
+192.168.2.6,user6@empresa.com,6000,UDP,7963,TikTok
+192.168.1.5,user10@empresa.com,8080,TCP,3929,B3
+192.168.2.2,user5@empresa.com,443,TCP,3137,Banco
+192.168.1.4,user12@empresa.com,80,TCP,8756,Fifa
+192.168.2.9,user18@empresa.com,3306,TCP,1177,Banco de Dados
+192.168.1.1,user9@empresa.com,8080,TCP,1653,Fifa
+192.168.2.3,user18@empresa.com,80,TCP,3198,B3
+192.168.2.8,user6@empresa.com,123,UDP,7633,Ajuste de horário NTP
+192.168.2.3,user17@empresa.com,123,UDP,162,Ajuste de horário NTP
+192.168.3.8,user12@empresa.com,80,TCP,7641,B3
+192.168.2.9,user10@empresa.com,6000,UDP,7314,Band
+192.168.1.3,user6@empresa.com,123,UDP,2429,Ajuste de horário NTP
+192.168.2.6,user6@empresa.com,110,TCP,7125,B3
+192.168.2.6,user5@empresa.com,6000,UDP,7348,B3
+192.168.2.8,user18@empresa.com,6000,UDP,9125,B3
+192.168.1.6,user1@empresa.com,123,UDP,381,Ajuste de horário NTP
