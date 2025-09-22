@@ -30,7 +30,8 @@ pip install flask streamlit requests
 Este é o **sistema interno** que guarda o segredo.
 
 ```bash
-python SISTEMA_INTERNO\sistema_interno.py
+cd SISTEMA_INTERNO
+python sistema_interno.py
 ```
 
 Acesse diretamente para conferir:
@@ -45,6 +46,10 @@ http://127.0.0.1:5000/segredo.txt
 
 #### 3.2.1 SSRF Vulnerável (Flask)
 
+**FLASK** - Servidor vulnerável
+
+Abra um novo terminal e execute:
+
 ```bash
 python SSRF\ssrf_flask_vuln.py
 ```
@@ -57,9 +62,17 @@ http://127.0.0.1:5001/fetch?url=http://127.0.0.1:5000/segredo.txt
 
 !!! O segredo é exposto.
 
+Adicional: acesse qualquer website em vez de http://127.0.0.1:5000/segredo.txt
+
+*Pare o servidor vulnerável inicializado.*
+
 ---
 
 #### 3.2.2 SSRF Protegido (Flask)
+
+**FLASK** - Servidor protegido
+
+Inicie o servidor com proteção à SSRF:
 
 ```bash
 python SSRF\ssrf_flask_protegido.py
@@ -73,21 +86,30 @@ Teste:
 http://127.0.0.1:5002/fetch?url=http://127.0.0.1:5000/segredo.txt
 ```
 
-* Acessa (porque está na allowlist):
+* Acessa (porque *está* na allowlist):
 
 ```
 http://127.0.0.1:5002/fetch?url=https://example.com
 ```
 
+* Não Acessa (porque *não está* na allowlist):
+```
+http://127.0.0.1:5002/fetch?url=https://www.fiap.com.br
+```
+
+*Pare o servidor protegido inicializado.*
+
 ---
 
 #### 3.2.3 SSRF Vulnerável (Streamlit)
+
+**STREAMLIT** - Inicie o servidor vulnerável
 
 ```bash
 streamlit run SSRF\ssrf_streamlit_vuln.py
 ```
 
-Digite no campo:
+Digite no campo URL do website iniciado:
 
 ```
 http://127.0.0.1:5000/segredo.txt
@@ -95,9 +117,16 @@ http://127.0.0.1:5000/segredo.txt
 
 !!! O segredo é exposto.
 
+Adicional: acesse qualquer website em vez de http://127.0.0.1:5000/segredo.txt
+
+*Pare o servidor vulnerável inicializado.*
+
+
 ---
 
 #### 3.2.4 SSRF Protegido (Streamlit)
+
+**STREAMLIT** - Inicie o servidor protegido
 
 ```bash
 streamlit run SSRF\ssrf_streamlit_protegido.py
@@ -110,6 +139,8 @@ http://127.0.0.1:5000/segredo.txt
 ```
 
 <> Bloqueado.
+
+*Pare o servidor protegido inicializado.*
 
 ---
 
@@ -124,7 +155,7 @@ python RATE_LIMIT\rate_flask_vuln.py
 Teste com várias requisições rápidas:
 
 ```bash
-for i in {1..10}; do curl -s -o /dev/null -w "%{http_code}\n" http://127.0.0.1:5003/; done
+http://127.0.0.1:5001
 ```
 
 -> Todas retornam `200`.
@@ -140,7 +171,7 @@ python RATE_LIMIT\rate_flask_protegido.py
 Teste com várias requisições rápidas:
 
 ```bash
-for i in {1..10}; do curl -s -o /dev/null -w "%{http_code}\n" http://127.0.0.1:5004/; done
+http://127.0.0.1:5001
 ```
 
 --> As primeiras retornam `200`, as seguintes `429`.
@@ -170,5 +201,5 @@ streamlit run RATE_LIMIT\rate_streamlit_protegido.py
 
 ## Resumo
 
-* **SSRF**: mostra como um sistema externo pode abusar de endpoints internos (pegando `segredo.txt`) → solução: **allowlist** + **bloqueio de hosts internos**.
-* **Rate Limiting**: mostra como requisições excessivas podem derrubar o sistema → solução: **limitar por tempo/IP/sessão**.
+* **SSRF**: mostra como um sistema externo pode abusar de endpoints internos (pegando `segredo.txt`): solução: **allowlist** + **bloqueio de hosts internos**.
+* **Rate Limiting**: mostra como requisições excessivas podem derrubar o sistema: solução: **limitar por tempo/IP/sessão**.
