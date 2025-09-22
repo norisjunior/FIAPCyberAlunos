@@ -1,0 +1,4 @@
+Conteudo interno, acesso somente da rede interna.
+Ninguem na Internet deveria acessar.
+
+SENHA_SUPER_SECRETA=FIAP2025
