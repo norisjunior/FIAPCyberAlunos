@@ -1,4 +1,3 @@
-```
 # CyberGuard - Simulador Educacional de Ransomware
 
 Este projeto é um simulador educacional de ransomware, projetado para fins didáticos em ambientes controlados.
@@ -38,7 +37,7 @@ python -m pip install --upgrade pip
 1. Navegue até o diretório onde o script foi baixado.
 2. Execute o script Python usando o comando:
    ```bash
-   python3 cyberguard.py
+   python ransomware.py
    ```
 
 ## Notas Importantes
@@ -47,7 +46,3 @@ python -m pip install --upgrade pip
 - Apenas arquivos com extensões `.xls`, `.xlsx`, `.xsl`, `.docx`, `.pdf`, `.txt`, `.csv`, e `.pptx` serão criptografados.
 - Após a execução, os arquivos serão renomeados com a extensão `.locked` e uma chave de descriptografia será gerada e salva em um arquivo chamado `key.rans`.
 
-## Desenvolvedor
-
-Este projeto foi desenvolvido por [Seu Nome] como parte de um estudo de caso sobre ransomware.
-```
